@@ -15,13 +15,13 @@ https://public.tableau.com/app/profile/bryan.test.johnson/viz/GWBCCiti-Bike-Data
 
 During the initial set up, I went to the site [Citi Bikes](https://s3.amazonaws.com/tripdata/index.html) to download the trip data. The instructions was specific that I should **not** download every ZIP file as it would be too much data for Tableau to handle. I opted to download all data from the years 2021, 2022, 2023 as that was 3 ZIP files. However, upon closer inspection, I found that each year had more data than Tableau&trade; could handle (over 15M rows), at least for the free version.
 
-Due to this limitation, I opted to use just the 2023 data, from September forward, as this was the first month that had fewer than 15M rows throughout the rest of the year.
+Due to this limitation, I initially opted to use just the 2023 data, from September forward, as this was the first month that had fewer than 15M rows throughout the rest of the year. However, trying to create visualizations with this much data dramatically slowed down the application and my ability to use the tool quickly. 
 
 Once I knew this to be true, I added those corresponding files as a UNION within Tableau&trade;.
 
 ## Data Clean Up
 
-Before I imported the CSV files for September 2023 until December 2023, I made sure that the files had the same number of columns, with the same column names and data types in each column. I noticed that each CSV had the following 13 columns:
+Before I imported the CSV files, I made sure that the files had the same number of columns, with the same column names and data types in each column. I noticed that each CSV had the following 13 columns:
 
 - ride_id (*varchar*)
 - rideable_type (*varchar*)
