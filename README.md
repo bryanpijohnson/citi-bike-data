@@ -4,7 +4,7 @@
 https://github.com/bryanpijohnson/citi-bike-data
 
 ## The link to my Tableau Public&trade; file can be found here:
-https://public.tableau.com/app/profile/bryan.test.johnson/viz/GWBCCiti-Bike-Data/Sheet1?publish=yes
+https://public.tableau.com/app/profile/bryan.test.johnson/viz/GWBCCiti-Bike-Data/Sheet1
 
 ## Within the repo link, you will find the following folders and files that contributed to the assignment:;
 
